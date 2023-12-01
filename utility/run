@@ -1,0 +1,20 @@
+#!/bin/sh
+
+VIZ_TTY=$1
+SLEEP_DURATION=$2
+shift; shift
+REST_ARGS="$@"
+
+# Make sure we're outputting to a TTY
+exec 3< $VIZ_TTY
+if [ ! -t 3 ]; then
+    echo $VIZ_TTY "is not a TTY"
+    exit
+fi
+exec 3<&-
+
+while true; do
+    date
+    python $REST_ARGS 2> $VIZ_TTY
+    sleep $SLEEP_DURATION
+done
