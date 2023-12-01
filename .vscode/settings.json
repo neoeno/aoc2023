@@ -1,0 +1,7 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+
+  "editor.tabSize": 4,
+"editor.detectIndentation": false,
+"python.analysis.autoImportCompletions": true,
+}
