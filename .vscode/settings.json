@@ -1,7 +1,7 @@
 {
-  "python.analysis.typeCheckingMode": "basic",
-
-  "editor.tabSize": 4,
-"editor.detectIndentation": false,
-"python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "python.analysis.autoImportCompletions": true,
+    "workbench.editor.closeEmptyGroups": false
 }
