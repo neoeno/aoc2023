@@ -317,6 +317,7 @@ Translation("temperature", "humidity", [
     Adjuster(2552921188, 3494957241, 7342498),
 
 ]),
+
 Translation("humidity", "location", [
     Adjuster(897459980, 3171885613, 268595078),
     Adjuster(506368722, 1864971513, 13322696),
