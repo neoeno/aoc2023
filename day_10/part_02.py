@@ -101,7 +101,7 @@ class State:
             for x in hrange(0, self.width - 1, self.width):
                 pos = Vec(x, y)
                 if pos in self.outline_pos:
-                    if self.grid.get_type(pos) in "|LJS":
+                    if self.grid.get_type(pos) in "|LJ":
                         if ray_state == "OUTSIDE":
                             ray_state = "INSIDE"
                         else:
@@ -127,7 +127,6 @@ class State:
                 else:
                     row.append(".")
             grid.append(row)
-        show("\n".join("".join(row) for row in grid))
         imagify("viz.png", grid, scale=5)
 
 State.lookup = {
