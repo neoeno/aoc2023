@@ -2,7 +2,7 @@ import sys
 from dataclasses import dataclass
 from typing import Any, Callable, Collection, Sequence, Tuple, TypeVar
 from collections.abc import Iterable
-# from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw
 
 # == Check ==
 # To replace assert and show nicer errors
