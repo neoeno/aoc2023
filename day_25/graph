@@ -1,0 +1,110 @@
+// Day 25!
+graph {
+	btc [label="btc:2"]
+	dcd [label="dcd:1"]
+	dgk [label="dgk:1"]
+	fmz [label="fmz:2"]
+	fzf [label="fzf:1"]
+	hbz [label="hbz:1"]
+	hst [label="hst:1"]
+	jjq [label="jjq:1"]
+	kjk [label="kjk:1"]
+	mnv [label="mnv:1"]
+	ptn [label="ptn:1"]
+	qjb [label="qjb:1"]
+	rqk [label="rqk:1"]
+	sgs [label="sgs:1"]
+	smz [label="smz:1"]
+	tcv [label="tcv:763"]
+	vfz [label="vfz:3"]
+	vsn [label="vsn:1"]
+	xxq [label="xxq:1"]
+	zkg [label="zkg:696"]
+	tcv -- ptn
+	btc -- tcv
+	btc -- tcv
+	zkg -- fmz
+	tcv -- btc
+	vfz -- tcv
+	vfz -- tcv
+	vfz -- tcv
+	vfz -- tcv
+	zkg -- hbz
+	tcv -- smz
+	dcd -- zkg
+	dcd -- zkg
+	dcd -- zkg
+	tcv -- qjb
+	dgk -- tcv
+	dgk -- tcv
+	dgk -- tcv
+	dgk -- tcv
+	zkg -- fzf
+	tcv -- btc
+	zkg -- hst
+	tcv -- zkg
+	fmz -- zkg
+	fmz -- zkg
+	fmz -- zkg
+	tcv -- ptn
+	fzf -- zkg
+	fzf -- zkg
+	tcv -- qjb
+	tcv -- qjb
+	zkg -- hst
+	jjq -- tcv
+	jjq -- tcv
+	tcv -- vsn
+	tcv -- qjb
+	kjk -- zkg
+	kjk -- zkg
+	kjk -- zkg
+	zkg -- mnv
+	btc -- tcv
+	zkg -- fzf
+	tcv -- vfz
+	zkg -- dcd
+	zkg -- hbz
+	zkg -- mnv
+	zkg -- mnv
+	tcv -- jjq
+	zkg -- hbz
+	mnv -- zkg
+	mnv -- zkg
+	zkg -- hst
+	zkg -- kjk
+	zkg -- tcv
+	zkg -- fzf
+	zkg -- fmz
+	tcv -- rqk
+	rqk -- tcv
+	sgs -- zkg
+	sgs -- zkg
+	sgs -- zkg
+	sgs -- zkg
+	vfz -- tcv
+	vfz -- tcv
+	vfz -- tcv
+	zkg -- fmz
+	smz -- tcv
+	smz -- tcv
+	smz -- tcv
+	tcv -- rqk
+	zkg -- tcv
+	tcv -- xxq
+	vfz -- tcv
+	vfz -- tcv
+	tcv -- rqk
+	vsn -- tcv
+	vsn -- tcv
+	vsn -- tcv
+	tcv -- jjq
+	zkg -- hbz
+	tcv -- btc
+	xxq -- tcv
+	xxq -- tcv
+	xxq -- tcv
+	zkg -- hst
+	tcv -- ptn
+	tcv -- ptn
+}
